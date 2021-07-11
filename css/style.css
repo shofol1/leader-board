@@ -74,11 +74,37 @@ main {
 
 /* blog */
 
+.blogs {
+    margin-top: 21px;
+}
+
 .blog {
     display: flex;
 }
 
-.blog img {
+.blog .thumbnail img {
     width: 177px;
     height: 117px;
+}
+
+.details {
+    margin-left: 16px;
+    color: #9F9F9F;
+}
+
+.details h3 {
+    color: #000;
+}
+
+.details a {
+    color: #562EFF;
+    text-decoration: none;
+}
+
+.details h3 {
+    margin-top: 0;
+}
+
+.thumbnail {
+    margin-bottom: 6px;
 }
