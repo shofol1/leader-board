@@ -153,3 +153,36 @@ main {
 .fa-star.empty {
     color: #AEAEAE;
 }
+
+
+/* media query for mobile devices */
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player .blogs .courses {
+        flex-direction: column;
+    }
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* media query for tablet */
+
+@media only screen and (min-width:688px) and (max-width:791px) {
+    .players,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
